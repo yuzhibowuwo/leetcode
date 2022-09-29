@@ -21,24 +21,17 @@ public class Interview {
         pailiezuhe shuangseqiuredball=new pailiezuhe();
         pailiezuhe shuangseqiublueball=new pailiezuhe();
         testpailie testpal=new testpailie();
-        //List<List<Integer>> respailie= test.pailie(testarry,2);
-        //List<List<Integer>> respailie=testpal.permute(testarry);
-        //List<List<Integer>> respailie=new ArrayList<List<Integer>>();
-        //test.combine(5,0,testarry);
-        //test.combine(5,0,shuangseqiured);
-        //for (int i=0;i<test.respailie.size();i++) {
-        //    System.out.println("第"+(i+1)+"个结果为:"+test.respailie.get(i));
-        //}
+
         daletoudobbleball.combine(2,0,daletoudobble);
         daletoufive.combine(5,0,daletoufiveball);
         shuangseqiuredball.combine(5,0,shuangseqiured);
-        shuangseqiublueball.combine(2,0,shuangseqiublue);
+        shuangseqiublueball.combine(1,0,shuangseqiublue);
         for(int i=0;i<5;i++) {
-            System.out.println("dubble red" + shuangseqiuredball.respailie.get(sr.nextInt(shuangseqiuredball.respailie.size())) + "blue "
+            System.out.println("ssq"+"front"+shuangseqiuredball.respailie.get(sr.nextInt(shuangseqiuredball.respailie.size())) + "backside"
                     + shuangseqiublueball.respailie.get(sr.nextInt(shuangseqiublueball.respailie.size())));}
 
         for(int i=0;i<5;i++) {
-            System.out.println("daletou five" + daletoufive.respailie.get(sr.nextInt(daletoufive.respailie.size())) + "dubble "
+            System.out.println("dlt"+"front"+daletoufive.respailie.get(sr.nextInt(daletoufive.respailie.size())) + "backside"
                     + daletoudobbleball.respailie.get(sr.nextInt(daletoudobbleball.respailie.size())));
         }
 
